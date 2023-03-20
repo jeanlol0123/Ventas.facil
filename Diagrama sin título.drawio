@@ -1,14 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T22:21:25.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="UaEFgpL7AegOaiTJuin0" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-20T00:40:47.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="Z48B83Ev6Ddo4FI-NCLJ" version="21.0.8" type="github">
   <diagram name="Página-1" id="jZdB5S3X_HLvqlEqnEEI">
     <mxGraphModel dx="839" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3SlA_AyJGMBYoSnjObg2-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="250" width="30" height="60" as="geometry" />
+        <mxCell id="3SlA_AyJGMBYoSnjObg2-1" value="Vendedor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="260" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SlA_AyJGMBYoSnjObg2-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="60" width="30" height="60" as="geometry" />
+        <mxCell id="kXDqmsoopicWjOemzrQE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SlA_AyJGMBYoSnjObg2-2" target="kXDqmsoopicWjOemzrQE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SlA_AyJGMBYoSnjObg2-2" target="kXDqmsoopicWjOemzrQE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SlA_AyJGMBYoSnjObg2-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kXDqmsoopicWjOemzrQE-1" target="kXDqmsoopicWjOemzrQE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-1" value="Comprador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-2" value="Factura" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-6" value="Admistrar vendedores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kXDqmsoopicWjOemzrQE-7" value="Administrar productos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
