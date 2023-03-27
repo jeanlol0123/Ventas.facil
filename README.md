@@ -3,7 +3,7 @@ Proyecto integrador de aula
 
 Integrantes:
 
-Jean Paul Ariza Calderon
-David Santiago Gimenez 
-Julian Yesid Marin Oyuela 
-Juand David Bobadilla Morales
+Jean Paul Ariza Calderon /n
+David Santiago Gimenez /N
+Julian Yesid Marin Oyuela /n 
+Juand David Bobadilla Morales /n
