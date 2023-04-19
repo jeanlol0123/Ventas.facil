@@ -1,0 +1,365 @@
+.wireframe1-container {
+  min-height: 100vh;
+}
+.wireframe1-wireframe1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.wireframe1-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 108px;
+  position: absolute;
+}
+.wireframe1-menubutton {
+  top: 0px;
+  left: 20px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-text {
+  top: 30px;
+  left: 643px;
+  color: rgba(255, 255, 255, 1);
+  width: 747px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.wireframe1-text02 {
+  top: 30px;
+  left: 192px;
+  color: rgba(255, 255, 255, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.wireframe1-group2 {
+  top: 118px;
+  left: 13px;
+  width: 1416.0001220703125px;
+  height: 894px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.wireframe1-rectangle3 {
+  top: 0px;
+  left: 1px;
+  width: 1415px;
+  height: 894px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-text04 {
+  top: 20px;
+  left: 151px;
+  color: rgba(0, 0, 0, 1);
+  width: 139px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text06 {
+  top: 17px;
+  left: 357px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text08 {
+  top: 17px;
+  left: 612px;
+  color: rgba(0, 0, 0, 1);
+  width: 191px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text10 {
+  top: 17px;
+  left: 868px;
+  color: rgba(0, 0, 0, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text12 {
+  top: 17px;
+  left: 1075px;
+  color: rgba(0, 0, 0, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text14 {
+  top: 17px;
+  left: 1243px;
+  color: rgba(0, 0, 0, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text16 {
+  top: 17px;
+  left: 18px;
+  color: rgba(0, 0, 0, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-line1 {
+  top: 70.429443359375px;
+  left: 2.01507568359375px;
+  width: 1414px;
+  height: 0px;
+  position: absolute;
+}
+.wireframe1-rectangle4 {
+  top: 70px;
+  left: 1px;
+  width: 1415px;
+  height: 824px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-line2 {
+  top: 178.0792236328125px;
+  left: 0px;
+  width: 1414px;
+  height: 0px;
+  position: absolute;
+}
+.wireframe1-text18 {
+  top: 108px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text20 {
+  top: 108px;
+  left: 319px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text22 {
+  top: 108px;
+  left: 612px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text24 {
+  top: 108px;
+  left: 908px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-text26 {
+  top: 101px;
+  left: 1075px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: JejuGothic;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe1-line21 {
+  top: 184px;
+  left: 145px;
+  width: 828px;
+  height: 0px;
+  position: absolute;
+}
+.wireframe1-unchecked-checkboxinput {
+  top: 213px;
+  left: 25px;
+  width: 104px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-edit-filebutton {
+  top: 203px;
+  left: 1236px;
+  width: 60px;
+  height: 76px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-trash-canbutton {
+  top: 213px;
+  left: 1327px;
+  width: 64px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+}
+.wireframe1-add-newbutton {
+  top: 305px;
+  left: 694px;
+  width: 78px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+}

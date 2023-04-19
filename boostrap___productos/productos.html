@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Charset que se utiliza pra reconocer caracteres especiales y ñ-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos</title>
+        <!--Conexion Documento a las hojas de CSS-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--Conexion Documento con Scripts de JS-->
+        <link href="javaScript/productos-style.js" rel="javaScript">
+        <script src="javaScript/jquery.min.js"></script>
+        <script src="javaScript/popper.min.js"></script>
+        <script src="javaScript/bootstrap.min.js"></script>
+        <script src="javaScript/bstable.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Administración de Productos</h1>
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Activo</th>
+                    <th>Código</th>
+                    <th>Producto</th>
+                    <th>Proveedor</th> 
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="datos">
+            </tbody>
+        
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>0001</td>
+                <td>Pastel de chocolate</td>
+                <td>Pasteleria Toledo</td>
+                <td>25</td>   
+                <td>$3000</td>  
+                <td>
+                    <!--Botones convertidos en clases, el img src esta dentro del boton para que la imagen aparezca dentro de este mismo-->
+                    <span class="button">
+                        <button>
+                            <img src="public/images/editar.png" alt="Editar">
+                        </button>
+                    </span>
+                    <span class="button">
+                        <button>
+                            <img src="public/images/eliminar.png" alt="Borrar">
+                        </button>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+<!--Clase de boton de agregar una columna a la tabla-->
+<div id="button-container">
+    <button>
+        <img src="public/images/Agregar.png" alt="Anadir">
+    </button>
+</div>      
+
+    </body>
+</html>

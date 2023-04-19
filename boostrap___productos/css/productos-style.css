@@ -1,0 +1,50 @@
+body{
+    
+}
+    
+
+    h1 {
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: (0,0,0);
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    table {
+        /*Padding para poder centrar mas la tabla y que este alineada con los 40 px del h1*/
+        padding-left: 40px;     
+        width: 90%;  
+    }
+
+    #table input[type="checkbox"]{
+        /*Esto Centra y muestra el checkbox de el Activo en la tabla*/
+        display: block;
+        margin: 0 auto;
+    }
+
+    #table td{
+        /*Centrar todos los tds de la tabla */
+        text-align:center;
+    }
+    
+    #table input[type="button"]{
+        /*Centrar el boton de la tabla*/
+        display: block;
+        margin: 0 auto;
+    }
+    .button img {
+        /* Inline block es para que un boton quede despues del otro y no debajo, y se configuró el tamaño de las imágenes a 50 px de las 2 para que queden igual */
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+      }
+
+    #button-container {
+        display:flex;
+        justify-content: center;
+    }
+
+
+
+
