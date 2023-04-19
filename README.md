@@ -9,4 +9,4 @@ David Santiago Gimenez
 
 Julian Yesid Marin Oyuela 
 
-Juand David Bobadilla Morales 
+Juan David Bobadilla Morales 
