@@ -1,0 +1,165 @@
+body {
+    background-color: #E9E1CC;
+
+}
+
+
+
+    /*Titulo Principal*/
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    /*Esto solo va a realizar cambios en el header de la tabla, y los bordes de afuera de la tabla*/
+
+    #tablaProductos{
+        border: 1px solid black;
+        border-collapse: collapse;
+        /*Para que el header de la tabla quede morado- el de la paleta*/
+        background-color: #6E5773;
+        /*Para que el header de la tabla quede rosado oscuro- el de la paleta*/
+        /*background-color: #D45079;*/
+        width: 90%;
+        table-layout: fixed;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+    /*Lo siguiente va a realizar cambios en los datos que se encuentren dentro de la tabla*/
+    #tablaProductos td{
+        background-color: #EA9085;
+        height:55px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    /* Mirar si este estilo queda bien, todavia no se ha definido el color
+    #tablaProductos tr:nth-child(odd) {
+        background-color: #D6EEEE;
+    }
+    */
+
+    /*Hover dentro de la tabla, el hover es que cuando uno pasa el mouse por encima de una fila se sobre marca toda*/
+
+    #tablaProductos tr:hover td:not(thead td) {
+        background-color: #E9E1CC;
+      }
+
+      /*Este espacio es para quiatr los bordes de la primera fila o del checkbox y solo dejar el de abajo y derecha, tal y como esta en el diseño*/
+    #tablaProductos td:first-child {
+        border:none;
+        border-right:1px solid black;
+        border-bottom:1px solid black;
+        text-align:center
+    }
+
+    /*Estilo del checkbox*/
+
+    .checkbox-container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      
+      .checkbox-container input {
+        border: 1px groove black;
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+      
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+      }
+      
+      .checkbox-container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      
+      .checkbox-container input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+      
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      .checkbox-container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      .checkbox-container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+      }
+
+
+
+    /*Definicion de tamaños para las imagenes de Acciones*/
+    /*Se cambio el tamaño de la de eliminar para que queden mas o menos igual, esto esta sujeto a cambios*/
+    .modificar img{
+        max-width: 25px;
+        height:auto;
+    }
+
+    .eliminar img{
+        max-width:37px;
+        height:auto;
+    }
+
+    /*Patch para que las imagenes de los botones no interfieran con el hover principal*/
+
+    .modificar:hover,.eliminar:hover{
+        background-color:transparent;
+        border:none;
+    }
+
+    /*Estilo para que los botones no tengan borde y se ajusten al color principal de la tabla*/
+    .modificar, .eliminar{
+        border:none;
+        background-color:transparent;
+        cursor:pointer;
+    }
+
+    .agregar img{
+        max-width:65px;
+        height:auto;
+        background-color: transparent;
+        text-align:center;
+    }
+
+    .agregar{
+        display:block;
+        margin:auto;
+        border: none;
+        cursor:pointer;
+        background-color: transparent;
+    }
+
+
+    /*Estilo de el cuadro que se muestra en el anadir*/
+    #contenedor-inputs{
+        display:none;
+    }
+
+
+
+
+
+
+
