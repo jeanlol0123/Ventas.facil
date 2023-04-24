@@ -1,8 +1,10 @@
 # Ventas.facil
 Proyecto integrador de aula
 
+![logo](https://user-images.githubusercontent.com/102427556/233881174-2e4cb961-def6-4fa9-a124-6aed58d40fcb.png)
+
+
 Integrantes:
-![Prueba de imagen](https://user-images.githubusercontent.com/102427556/233744405-f066357f-00dc-42dd-9074-8fc2d4818003.jpeg)
 
 Jean Paul Ariza Calderon
 
