@@ -1,7 +1,8 @@
 # Ventas.facil
 Proyecto integrador de aula
 
-![logo](https://user-images.githubusercontent.com/102427556/233881174-2e4cb961-def6-4fa9-a124-6aed58d40fcb.png)
+![logo](https://user-images.githubusercontent.com/102427556/233881485-9f47c731-3074-4862-81d3-e017ba15d8b7.png)
+
 
 
 Integrantes:
