@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bg{
+    background:linear-gradient(0.25turn, #6E5773, #FFF8E4, #6E5773);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#personal{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+#total{
+font-weight: bold;
+font-size: 15px;
+}
+
+.form-control::-webkit-inner-spin-button{ 
+        -webkit-appearance: none; 
+        margin: 0; 
+}
+
+/* Formato visual (css) donde se ingresan datos del personal*/
+
+.container{
+    display: flex;
+    box-shadow: 0 0 10000px rgba(0, 0, 0, 10);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.titul{
+    margin: auto;
+}
+
+.col-6{
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
