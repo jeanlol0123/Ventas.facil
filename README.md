@@ -1,13 +1,25 @@
-# Ventas.facil
-Proyecto integrador de aula
+<h1 align="center"> Ventas.facil</h1>
 
-Integrantes:
-![Prueba de imagen](https://user-images.githubusercontent.com/102427556/233744405-f066357f-00dc-42dd-9074-8fc2d4818003.jpeg)
+## Proyecto integrador de aula
+---
+<p align="center"><img src="https://user-images.githubusercontent.com/102427556/233881485-9f47c731-3074-4862-81d3-e017ba15d8b7.png"/></p>
+<p align="center"><em>¡Sin rodeos ni complicación,¡Ventas.facil es la elección!</em> </p>
 
-Jean Paul Ariza Calderon
 
-David Santiago Gimenez 
 
-Julian Yesid Marin Oyuela 
+## Descripción del proyecto PIA
+---
+Ventas.facil es un sistema de ventas el cual busca agilizar y optimizar las ventas realizadas por los pequeños empresarios y emprendimientos colombianos los cuales buscan tener una presencia online para ser competitivos en un mercado cada vez mas digitalizado.
 
-Juan David Bobadilla Morales 
+Buscamos ofrecer una experiencia cercana e intuitiva en el manejo de nuestro aplicativo web, para que nuestros clientes se sientan comodos al usar Ventas.facil.
+
+
+
+---
+<p>Integrantes:</p>
+<ul>
+  <li><a href="https://github.com/jeanlol0123">Jean Paul Ariza Calderon</a></li>
+  <li><a href="https://github.com/D4V1D16">David Santiago Jimenez</a></li>
+  <li><a href="https://github.com/Jlydm">Julian Yesid Marin Oyuela</a></li>
+  <li><a href="https://github.com/ElJuanxi">Juan David Bobadilla Morales</a></li>
+</ul>
