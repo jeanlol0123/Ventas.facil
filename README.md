@@ -1,7 +1,7 @@
 <h1 align="center"> Ventas.facil</h1>
 
-<h2 align="center">Proyecto integrador de aula</h2>
-
+##Proyecto integrador de aula
+---
 <p align="center"><img src="https://user-images.githubusercontent.com/102427556/233881485-9f47c731-3074-4862-81d3-e017ba15d8b7.png"/></p>
 <p align="center"><em>¡Sin rodeos ni complicación,¡Ventas.facil es la elección!</em> </p>
 
