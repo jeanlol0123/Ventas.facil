@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Reiniciar estilos -->
-    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="static/css/normalize.css">
     <!-- Bootstrap (5.3) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <!-- Estilos colocados -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="static/css/style.css">
     <!-- Titulo de la pagina -->
     <title>Personal-Ventas.facil</title>
   </head>
@@ -28,7 +28,7 @@
     <nav class="navbar" id="header_">
       <!-- logo y nombre pagina -->
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/img/LogoBYN.png" width="45" height="45" class="d-inline-block align-text-center">
+        <a class="navbar-brand" href="#"><img src="static/img/LogoBYN.png" width="45" height="45" class="d-inline-block align-text-center">
           Ventas.facil
         </a>
       </div>
@@ -88,7 +88,7 @@
     
     <!-- Boton menu agregar persona -->
     <button type="button" class="btn-1 btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-      <img src="{% static 'img/plus.png' %}" class="img">
+      <img src="static/img/plus.png" class="img">
     </button>
     
     <!-- Modal -->
@@ -147,7 +147,6 @@
       </div>
     </div>
 
-    
     <!--  formulario emergente para el btn modificar   -->
     <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="display: none" aria-hidden="true"> 
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -202,7 +201,7 @@
     </div>
 
 
-    <script src="{% static 'js/main.js' %}"></script>
+    <script src="static/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </body>
 </html>
