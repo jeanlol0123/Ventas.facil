@@ -1,0 +1,162 @@
+/* arreglo general */
+
+/* Agrega tipo de letra a todo */
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* arrelglo al cuerpo */
+
+/* Los colores del fondo */
+body{
+    background: #fefefe;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/* header */
+
+/* color */
+#header_{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #3038df 100%);
+    height: 65px;
+}
+
+
+
+/* Ubicacion input y boton buscar */
+#buscador{
+    position: absolute;
+    right: 10px;
+}
+
+/* menu */
+
+/* div contenedor del iframe */
+.menu{
+    display: inline-block;
+    width: 18%;
+    height: 89vh;  
+}
+
+
+/* tabla de informacion */
+
+/* diseño */
+#personal{
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0 !important;
+    position: fixed;
+}
+
+
+/* contenedor de toda la tabla */
+.table{
+    position: relative;
+    font-size: 20px;
+}
+
+table{
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Boton para agregar personal */
+
+/* diseño */
+.btn-1{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    bottom: 17px;
+    right: 50px;
+    width: 1px;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Formulario para ingresar a persona nueva */
+
+.header{
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+/* diseño */
+.modal-content{
+    background: #ffffff;
+    margin: 0;
+    border: #000000;
+    border-radius: 40px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 5);
+}
+
+/* diseño input y texto */
+.modal-body{
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+
+/* tamaño de caja contenedora de inputs */
+.col-6{
+    width: 300px;
+}
+
+/* diferentes textos */
+label{
+    margin: 13px 0 0 0;
+}
+
+/* eliminar flechas subir y bajar de input numero */
+.form-control::-webkit-inner-spin-button{ 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* modificacion botones */
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    border: 1px;
+}
+
+/* anchura botones */
+.btn{
+    border: none;
+    width: 100px;
+}
+
+/* botones de editar informacion */
+
+/* modificar boton guardar */
+#modif{
+    margin: 1.5%;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+/* no se a que lo agrego jean por lo visto a nada*/
+#elimi{
+    margin: 1.5%;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+
+
+/* Oprima alt + z si no lo tiene activado */
+/* el menu no es dinamico por lo que no hace la animacion de correrse la info hacia el lado pero estaba pensando en hacerlo como el menu de Youtube que al abrirlo se coloca sobre el contenido o video y hace un shadow, no pude agregar el menu al lado de el header tengo entendido que se debe hacer como dos cajas una a la izquierda y otra a la derecha en la de la izquierda va el menu y en la de la derecha el header y luego la tabla, si se le agrega un footer a la pagina (que no deberia tener) el boton de agregar personas se le cambiaria la posicion por sticky y se calcularia para que quede abajo a la derecha, utilice la paleta de colores que tiene el menu esa es la mas bonita y combina bien esta en el ::root de ese html */
+/* mucho texto xdxdxd */

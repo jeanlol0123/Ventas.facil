@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reiniciar estilos -->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- Bootstrap (5.3) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery (funcionalidad js) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Fuente (Rubik 400) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- Estilos colocados -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Titulo de la pagina -->
+    <title>Personal-Ventas.facil</title>
+  </head>
+  <body>
+    <!-- cabecera pagina -->
+    <header>
+    <!-- ese nav esta mal -->
+    <nav class="navbar" id="header_">
+      <!-- logo y nombre pagina -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/img/LogoBYN.png" width="45" height="45" class="d-inline-block align-text-center">
+          Ventas.facil
+        </a>
+      </div>
+      <!-- no creo que el form vaya (nose) -->
+      <!-- input y boton de buscar -->
+      <form class="d-flex" id="buscador">
+        <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+        <button class="btn btn-warning" type="submit">Buscar</button>
+      </form>
+      </nav>
+    </header>
+
+    <br>
+    <h1>
+      <center>
+        ADMINISTRA TU PERSONAL
+      </center>
+    </h1>
+    
+    <!-- Tabla para ver trabajadores -->
+    <div class="col-12 mt-3" id="personal">
+      <table class="table table-striped" id="lista">
+        <thead bgcolor="b0e1eb">
+          <th scope="col">Codigo</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Identificacion</th>
+          <th scope="col">Direccion</th>
+          <th scope="col">Telefono/Celular</th>
+          <th scope="col">Usuario</th>
+          <th scope="col">Contraseña</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Fecha Nacimiento</th>
+          <th scope="col">Genero</th>
+          <th scope="col">Tipo Usuario</th>
+          <th scope="col">Acciones</th>
+        </thead>
+        <!--Incrustacion de Jinja2 en el archivo de html, estos datos son ingresados por el administrador-->
+        <tbody>
+          {% for usuario in usuarios %}
+          <tr>
+            <td>{{ usuario.codigo }}</td>
+            <td>{{ usuario.nombre }}</td>
+            <td>{{ usuario.identificacion }}</td>
+            <td>{{ usuario.direccion }}</td>
+            <td>{{ usuario.telefono }}</td>
+            <td>{{ usuario.usuario }}</td>
+            <td>{{ usuario.contrasena }}</td>
+            <td>{{ usuario.correo }}</td>
+            <td>{{ usuario.fechaNacimiento }}</td>
+            <td>{{ usuario.get_genero_display }}</td>
+            <td>{{ usuario.get_tipoUsuario_display }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    
+    <!-- Boton menu agregar persona -->
+    <button type="button" class="btn-1 btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <img src="{% static 'img/plus.png' %}" class="img">
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header header">
+            <h5 class="title" id="titulo">Nuevo Registro</h5>
+          </div>
+          <div class="modal-body">
+            <form class="col-6">
+              <label>Codigo</label>
+              <input type="number" class="form-control" id="codigo" required>
+              <label>Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+              <label>Identificacion</label>                            
+              <input type="number" class="form-control" id="identificacion" required>
+              <label>Direccion</label>
+              <input type="text" class="form-control" id="direccion" required>
+              <label>Telefono/Celular</label>
+              <input type="tel" class="form-control" id="telefono" onkeypress='return validar_num(event)' required>
+              <label>Usuario</label>
+              <input type="text" class="form-control" id="usuario" required>
+              <label>Contraseña</label>                            
+              <input type="password" class="form-control" id="contraseña" required>
+              <label>Correo</label>
+              <input type="email" class="form-control" id="correo" required>
+              <label>Fecha Nacimiento</label>
+              <input type="date" class="form-control" id="nacimiento" required>
+              <label>Genero</label>    
+                            
+              <!-- <div class="select"> -->
+              <select class="form-select" aria-label="Default select example" id="genero">
+                <option selected>Seleccione su genero</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+              </select>            
+                
+              <!-- Para saber si es admin o normal -->
+              <label>Tipo Usuario</label>
+              <select class="form-select" aria-label="Default select example" id="tipouser">
+                <option selected>Seleccione su tipo de usuario</option>
+                <option>Administrador</option>
+                <option>Vendedor</option>
+              </select>
+            </form>
+          </div>
+
+          <!-- muestra los botones de agregar o cancelar -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" id="agregar" data-bs-dismiss="modal">Agregar</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!--  formulario emergente para el btn modificar   -->
+    <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="display: none" aria-hidden="true"> 
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="titulo">Modificar Registro</h5>
+          </div>
+          <div class="modal-body">
+            <form class="col-6">
+              <label>Codigo</label>
+              <input type="number" class="form-control" id="codigo-" required />
+              <label>Nombre</label>
+              <input type="text" class="form-control" id="nombre-" required />
+              <label>Identificacion</label>
+              <input type="number" class="form-control" id="identificacion-" required/>
+              <label>Direccion</label>
+              <input type="text" class="form-control" id="direccion-" required />
+              <label>Telefono/Celular</label>
+              <input type="tel" class="form-control" id="telefono-" onkeypress="return validar_num(event)" required/>
+              <label>Usuario</label>
+              <input type="text" class="form-control" id="usuario-" required />
+              <label>Contraseña</label>
+              <input type="password" class="form-control" id="contraseña-"required/>
+              <label>Correo</label>
+              <input type="email" class="form-control" id="correo-" required />
+              <label>Fecha Nacimiento</label>
+              <input type="date" class="form-control" id="nacimiento-" required/>
+              <label>Genero</label>
+
+              <!-- <div class="select"> -->
+              <select class="form-select" aria-label="Default select example" id="genero-">
+              <option selected>Seleccione su genero</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+              </select>
+              <!-- Para saber si es admin o normal -->
+              <label>Tipo Usuario</label>
+              <select class="form-select" aria-label="Default select example" id="tipouser-">
+                <option selected>Seleccione su tipo de usuario</option>
+                <option>Administrador</option>
+                <option>Vendedor</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" id="modif" data-bs-dismiss="modal">Guardar</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </body>
+</html>
