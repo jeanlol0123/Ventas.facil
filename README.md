@@ -2,7 +2,7 @@
 
 ## Proyecto integrador de aula
 ---
-<p align="center"><img src="https://user-images.githubusercontent.com/102427556/233881485-9f47c731-3074-4862-81d3-e017ba15d8b7.png"/></p>
+<p align="center"><img src="https://github.com/jeanlol0123/Ventas.facil/assets/111474574/ed525961-c2cf-46ab-bf2d-e3a630b82688)"/></p>
 <p align="center"><em>¡Sin rodeos ni complicación,¡Ventas.facil es la elección!</em> </p>
 
 
